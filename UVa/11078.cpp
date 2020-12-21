@@ -9,8 +9,8 @@ int main() {
 	// freopen("o.txt", "w", stdout);
 	int t; cin >> t;
 	while (t--) {
-		int n, cur, cur_max, ans = INT_MIN; cin >> n;
-		cin >> cur; --n; cur_max = cur;
+		int n, cur, cur_max, ans = INT_MIN;
+		cin >> n >> cur_max; --n;
 		while (n--) {
 			cin >> cur;
 			ans = max(ans, cur_max - cur);
