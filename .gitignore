@@ -1,5 +1,6 @@
 *.exe
 *.class
+*.pdf
 i.txt
 o.txt
 e.txt
